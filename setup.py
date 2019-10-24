@@ -19,8 +19,8 @@ markupsafe_installs = (
 
 install_requires = []
 
-if markupsafe_installs:
-    install_requires.append('MarkupSafe>=0.9.2')
+# if markupsafe_installs:
+    # install_requires.append('MarkupSafe>=0.9.2')
 
 try:
     import argparse
